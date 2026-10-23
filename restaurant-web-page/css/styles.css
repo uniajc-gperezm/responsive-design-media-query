@@ -1,0 +1,22 @@
+@import "utils.css";
+@import "navbar.css";
+@import "showcase.css";
+@import "food.css";
+@import "food-menu.css";
+@import "testimonial.css";
+@import "contact.css";
+@import "footer.css";
+@import "media-queries.css";
+
+* {
+  margin: 0;
+  /* Resets default margin for all elements */
+  padding: 0;
+  /* Resets default padding for all elements */
+  /* background-color: bisque; */
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  /* Sets the font family for the body */
+}

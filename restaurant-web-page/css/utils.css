@@ -1,0 +1,47 @@
+/* Utility classes for buttons */
+.btn {
+  display: inline-block;
+  /* Allows the button to be inline with other elements */
+  padding: 0.8em 1.5em;
+  /* Adds padding inside the button */
+  text-decoration: none;
+  /* Removes underline from links */
+  border-radius: 50px;
+  /* Rounds the corners of the button */
+  cursor: pointer;
+  /* Changes cursor to pointer on hover */
+  outline: none;
+  /* Removes outline on focus */
+  margin-top: 1.5em;
+  /* Adds margin above the button */
+  text-transform: uppercase;
+  /* Transforms text to uppercase */
+  font-weight: small;
+  /* Sets font weight */
+  color: #fff;
+  /* Sets text color for primary button */
+}
+
+.btn-primary {
+  background: black;
+  /* Sets background color for primary button */
+}
+
+.btn-secundary {
+  background: lightblue;
+  /* Sets background color for secondary button */
+}
+
+.btn-primary:hover {
+  background: #117964;
+  /* Changes background color on hover */
+  transition: all 0.3s ease-in-out;
+  /* Smooth transition for hover effect */
+}
+
+.btn-secundary:hover {
+  background: #117964;
+  /* Changes background color on hover */
+  transition: all 0.3s ease-in-out;
+  /* Smooth transition for hover effect */
+}

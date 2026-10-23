@@ -1,0 +1,84 @@
+
+/* Food Menu Section */
+#food-menu {
+  background-color: whitesmoke;
+  /* Sets background color for the food menu */
+  padding-top: 4rem;
+  /* Adds top padding */
+}
+
+.food-menu-heading {
+  text-align: center;
+  /* Centers the heading */
+  font-size: 3.4rem;
+  /* Sets font size for the heading */
+  color: black;
+  /* Sets text color */
+  font-weight: 700;
+  /* Sets font weight */
+}
+
+.food-menu-container {
+  display: flex;
+  /* Uses flexbox for layout */
+  flex-wrap: wrap;
+  /* Allows items to wrap to the next line */
+  padding: 50px 0px 30px 10px;
+  /* Adds padding */
+}
+
+.food-menu-container img {
+  display: block;
+  /* Displays image as a block element */
+  width: 250px;
+  /* Sets width for the image */
+  height: 250px;
+  /* Sets height for the image */
+  border-radius: 50%;
+  /* Rounds the corners of the image */
+  object-fit: cover;
+  /* Ensures the image covers the area */
+  object-position: center;
+  /* Centers the image within its container */
+}
+
+.food-menu-item {
+  display: flex;
+  /* Uses flexbox for layout */
+  flex: 1 1 600px;
+  /* Allows items to grow and shrink with a base width */
+  justify-content: space-evenly;
+  /* Spaces items evenly */
+  margin-bottom: 4rem;
+  /* Adds bottom margin */
+}
+
+.food-description {
+  margin: auto 1.5rem;
+  /* Adds horizontal margin */
+}
+
+.font-title {
+  font-size: 1.8rem;
+  /* Sets font size for the title */
+  font-weight: 400;
+  /* Sets font weight */
+  color: #444;
+  /* Sets text color */
+}
+
+.food-description p {
+  font-size: 1.4rem;
+  /* Sets font size for description */
+  color: #555;
+  /* Sets text color */
+  font-weight: 500;
+  /* Sets font weight */
+}
+
+.food-description .food-price {
+  color: #117964;
+  /* Sets color for the price */
+  font-weight: 700;
+  /* Sets font weight for the price */
+}

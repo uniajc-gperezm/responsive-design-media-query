@@ -1,0 +1,16 @@
+
+/* Footer Section */
+#footer h2 {
+  text-align: center;
+  /* Centers the footer text */
+  font-size: 1.8rem;
+  /* Sets font size for the footer text */
+  padding: 0.6rem;
+  /* Adds padding */
+  font-weight: 500;
+  /* Sets font weight */
+  color: black;
+  /* Sets text color */
+  background: white;
+  /* Sets background color */
+}

@@ -1,0 +1,126 @@
+
+/* Food section styles */
+#food {
+  padding: 4rem 0 4rem 0;
+  /* Adds padding to the food section */
+}
+
+#food h2 {
+  text-align: center;
+  /* Centers the heading */
+  font-size: 2.5rem;
+  /* Sets font size for the heading */
+  margin-bottom: 40px;
+  /* Adds bottom margin */
+  text-transform: uppercase;
+  /* Transforms text to uppercase */
+  color: black;
+  /* Sets text color */
+  font-weight: 700;
+  /* Sets font weight */
+}
+
+.food-container {
+  display: flex;
+  /* Uses flexbox for layout */
+  justify-content: space-between;
+  /* Spaces items evenly */
+}
+
+.food-container img {
+  display: block;
+  /* Displays image as a block element */
+  width: 100%;
+  /* Sets image width to 100% */
+  margin: auto;
+  /* Centers the image */
+  max-height: 300px;
+  /* Sets maximum height for the image */
+  object-fit: cover;
+  /* Ensures the image covers the area */
+  border-radius: 10px;
+  /* Rounds the corners of the image */
+  object-position: center;
+  /* Centers the image within its container */
+}
+
+.img-container {
+  margin: 0 1rem;
+  /* Adds horizontal margin */
+  position: relative;
+  /* Positions the container relative to its normal position */
+}
+
+.img-content {
+  position: absolute;
+  /* Positions the content absolutely within the container */
+  top: 70%;
+  /* Positions content 70% from the top */
+  left: 50%;
+  /* Centers content horizontally */
+  transform: translate(-50%, -50%);
+  /* Centers content vertically */
+  opacity: 0;
+  /* Hides content initially */
+  z-index: 2;
+  /* Ensures content is above other elements */
+  text-align: center;
+  /* Centers text */
+  transition: all 0.3s ease-in-out 0.1s;
+  /* Smooth transition for opacity */
+}
+
+.img-content h3 {
+  color: #fff;
+  /* Sets text color for the heading */
+  font-size: 2.2rem;
+  /* Sets font size for the heading */
+}
+
+.img-content a {
+  font-size: 1.2rem;
+  /* Sets font size for the link */
+}
+
+.img-container::after {
+  content: '';
+  /* Creates a pseudo-element */
+  display: block;
+  /* Displays the pseudo-element as a block */
+  position: absolute;
+  /* Positions the pseudo-element absolutely */
+  top: 0;
+  /* Positions at the top */
+  left: 0;
+  /* Positions at the left */
+  width: 100%;
+  /* Sets width to 100% */
+  height: 100%;
+  /* Sets height to 100% */
+  background: rgba(0, 0, 0, 0.871);
+  /* Semi-transparent black background */
+  opacity: 0;
+  /* Hides the pseudo-element initially */
+  z-index: 1;
+  /* Ensures it is below the content */
+  transform: scaleY(0);
+  /* Scales the element down to 0 */
+  transform-origin: 100% 100%;
+  /* Sets the origin for scaling */
+  transition: all 0.3s ease-in-out;
+  /* Smooth transition for scaling */
+}
+
+.img-container:hover::after {
+  opacity: 1;
+  /* Shows the pseudo-element on hover */
+  transform: scaleY(1);
+  /* Scales the element to full size on hover */
+}
+
+.img-container:hover .img-content {
+  opacity: 1;
+  /* Shows the content on hover */
+  top: 40%;
+  /* Adjusts position on hover */
+}

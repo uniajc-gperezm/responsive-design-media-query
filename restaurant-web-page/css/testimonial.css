@@ -1,0 +1,83 @@
+
+/* Testimonials Section */
+#testimonials {
+  padding: 4rem 0;
+  /* Adds vertical padding */
+  background-color: white;
+  /* Sets background color */
+}
+
+.testimonial-title {
+  text-align: center;
+  /* Centers the heading */
+  font-size: 2.8rem;
+  /* Sets font size for the heading */
+  color: black;
+  /* Sets text color */
+  font-weight: 700;
+  /* Sets font weight */
+}
+
+.testimonial-container {
+  display: flex;
+  /* Uses flexbox for layout */
+  justify-content: space-between;
+  /* Spaces items evenly */
+  margin-top: 30px;
+  /* Adds top margin */
+  column-gap: 20px;
+  /* Adds gap between columns */
+}
+
+.testimonial-box .checked {
+  color: #ff9529;
+  /* Sets color for checked stars */
+}
+
+.testimonial-box .testimonial-text {
+  margin: 1rem 0;
+  /* Adds vertical margin */
+  color: #444;
+  /* Sets text color */
+}
+
+.testimonial-box {
+  text-align: center;
+  /* Centers text */
+  padding: 20px;
+  /* Adds padding */
+  background-color: white;
+  /* Sets background color */
+  border-radius: 10px;
+  /* Rounds corners */
+  display: flex;
+  /* Uses flexbox for layout */
+  flex-direction: column;
+  /* Stacks items vertically */
+  row-gap: 10px;
+  /* Adds space between rows */
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  /* Adds shadow effect */
+}
+
+.customer-photo img {
+  display: block;
+  /* Displays image as a block element */
+  width: 150px;
+  /* Sets width for the customer photo */
+  height: 150px;
+  /* Sets height for the customer photo */
+  object-fit: cover;
+  /* Ensures the image covers the area */
+  object-position: center;
+  /* Centers the image within its container */
+  border-radius: 50%;
+  /* Rounds the corners of the image */
+  margin: auto;
+  /* Centers the image */
+}
+
+.customer-photo p {
+  padding-top: 20px;
+  /* Adds top padding for customer name */
+}

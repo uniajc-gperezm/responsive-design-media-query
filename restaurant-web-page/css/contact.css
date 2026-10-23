@@ -1,0 +1,97 @@
+
+/* Contact Section */
+#contact {
+  padding: 4rem 0;
+  /* Adds vertical padding */
+  background: rgb(226, 226, 226);
+  /* Sets background color */
+}
+
+.contact-container {
+  display: flex;
+  /* Uses flexbox for layout */
+  background: #fff;
+  /* Sets background color */
+  border-radius: 10px;
+  /* Rounds corners */
+  padding: 20px;
+  /* Adds padding */
+}
+
+.contact-img {
+  width: 50%;
+  /* Sets width for the contact image */
+}
+
+.contact-img img {
+  display: block;
+  /* Displays image as a block element */
+  /* height: 420px; */
+  aspect-ratio: auto;
+  /* Sets height for the contact image */
+  border-top-left-radius: 10px;
+  /* Rounds top left corner */
+  border-bottom-left-radius: 10px;
+  /* Rounds bottom left corner */
+  width: 100%;
+  /* Sets width to 100% */
+  object-position: center;
+  /* Centers the image within its container */
+  object-fit: cover;
+  /* Ensures the image covers the area */
+}
+
+.form-container {
+  padding: 1rem;
+  /* Adds padding */
+  width: 50%;
+  /* Sets width for the form container */
+  margin: auto;
+  /* Centers the form container */
+}
+
+.form-container textarea {
+  display: block;
+  /* Displays textarea as a block element */
+  width: 100%;
+  /* Sets width to 100% */
+  border: none;
+  /* Removes border */
+  /* padding: 1rem 0; */
+  /* Adds vertical padding */
+  box-shadow: none;
+  /* Removes shadow */
+  outline: none;
+  /* Removes outline */
+  /* margin-bottom: 1rem; */
+  /* Adds bottom margin */
+  color: #444;
+  /* Sets text color */
+  font-weight: 500;
+  /* Sets font weight */
+  background: whitesmoke;
+  /* Sets background color */
+  padding: 10px;
+  /* Adds left padding */
+  border: 1px solid;
+  /* Adds border */
+  border-radius: 10px;
+  /* Rounds corners */
+  color: #444;
+  /* Sets text color */
+  resize: none;
+  /* Prevents resizing of the textarea */
+}
+
+.form-container h2 {
+  font-size: 2.7rem;
+  /* Sets font size for the heading */
+  color: black;
+  /* Sets text color */
+  font-weight: 700;
+  /* Sets font weight */
+  margin-bottom: 1.5rem;
+  /* Adds bottom margin */
+  margin-top: -1.2rem;
+  /* Adjusts top margin */
+}

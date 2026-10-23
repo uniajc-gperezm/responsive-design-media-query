@@ -1,0 +1,114 @@
+
+@media (min-width: 780px) and (max-width: 900px) {
+
+  .food-menu-container img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .btn {
+    margin-top: 1em;
+    padding: 0.5em 1.5em;
+  }
+
+  .form-container h2 {
+    margin-bottom: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .bar-icon {
+    display: block;
+    font-size: xx-large;
+  }
+
+  /* .navbar-container {
+    
+  } */
+
+  .menu-items {
+    display: none;
+  }
+
+  .food-menu-container img {
+    width: 150px;
+    height: 150px;
+  }
+
+  .testimonial-container {
+    display: block;
+  }
+
+  .testimonial-box {
+    margin: 20px 0px;
+  }
+
+
+  .contact-container {
+    display: flex;
+    /* Uses flexbox for layout */
+    background: #fff;
+    /* Sets background color */
+    border-radius: 10px;
+    /* Rounds corners */
+    padding: 20px;
+    /* Adds padding */
+    flex-direction: column;
+  }
+
+  .contact-img {
+    width: 100%;
+  }
+
+  .contact-img img {
+    /* width: 50%; */
+    display: block;
+    aspect-ratio: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    /* object-position: center; */
+    /* object-fit: cover; */
+    margin-bottom: 40px;
+  }
+
+  .form-container {
+    padding: 0px;
+    width: 100%;
+    margin: 0px;
+  }
+
+  .form-container textarea {
+    display: block;
+    width: 97%;
+    border: none;
+    box-shadow: none;
+    outline: none;
+    color: #444;
+    font-weight: 500;
+    background: whitesmoke;
+    padding-left: 20px;
+    border: 1px solid;
+    border-radius: 10px;
+    color: #444;
+    resize: none;
+    margin: 0px;
+    padding: 10px;
+  }
+
+  #footer h2 {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 560px) {
+
+  .food-container {
+    flex-direction: column;
+  }
+
+  .food-type {
+    margin: 20px auto;
+  }
+}

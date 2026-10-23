@@ -1,0 +1,91 @@
+/* Navigation styles */
+.container {
+  max-width: 1200px;
+  /* Sets maximum width for the container */
+  width: 90%;
+  /* Sets width to 90% of the viewport */
+  margin: auto;
+  /* Centers the container */
+}
+
+.navbar {
+  box-shadow: 37px -42px 10px 37px #aaa;
+  /* Adds shadow effect to the navbar */
+  /* Fixes the navbar at the top of the viewport */
+  /* position: fixed; */
+  width: 100%;
+  /* Sets width to 100% */
+  background: #fff;
+  /* Sets background color for navbar */
+  /* Sets height for navbar */
+  height: 70px;
+  display: flex;
+  /* Uses flexbox for layout */
+  align-items: center;
+  /* Vertically centers items */
+  /* z-index: 12; */
+  /* Ensures navbar is above other elements */
+}
+
+.navbar-container {
+  display: flex;
+  /* Uses flexbox for layout */
+  justify-content: space-between;
+  /* Spaces items evenly */
+  align-items: center;
+  /* Vertically centers items */
+}
+
+.bar-icon {
+  display: none;
+}
+
+.menu-items {
+  display: flex;
+  /* Uses flexbox for menu items */
+  order: 2;
+  /* Sets order of the menu items */
+}
+
+.menu-items li {
+  list-style: none;
+  /* Removes bullet points from list items */
+  margin-left: 1.5rem;
+  /* Adds left margin to list items */
+  margin-bottom: 0.5rem;
+  /* Adds bottom margin to list items */
+  font-size: 1.2rem;
+  /* Sets font size for list items */
+}
+
+.menu-items a {
+  text-decoration: none;
+  /* Removes underline from links */
+  color: #444;
+  /* Sets text color for links */
+  font-weight: 500;
+  /* Sets font weight for links */
+}
+
+.menu-items a:hover {
+  color: red;
+  /* Changes text color on hover */
+}
+
+.logo {
+  order: 1;
+  /* Sets order of the logo */
+  font-size: 2.3rem;
+  /* Sets font size for the logo */
+  /* Adds bottom margin to the logo */
+  /* margin-bottom: 0.5rem;  */
+}
+
+#darkModeIcon {
+  font-size: 1.6rem; /* Adjust as needed, similar to menu items or slightly larger */
+  margin-left: 1.5rem; /* Spacing from menu items or logo */
+  cursor: pointer;
+  order: 3; 
+  /* To place it after menu items */
+  align-self: center; /* Explicitly align if needed */
+}

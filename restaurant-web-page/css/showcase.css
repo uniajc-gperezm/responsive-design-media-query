@@ -1,0 +1,53 @@
+/* Showcase Area */
+
+/* Banner styles */
+.showcase-area {
+  height: 50vh;
+  /* Sets height for the showcase area */
+  background: linear-gradient(rgba(240, 240, 240, 0.144),
+      /* Gradient color */
+      rgba(255, 255, 255, 0.336)
+      /* Gradient color */
+    ), url("./../img/banner-background.jpg");
+  /* Background image */
+  background-position: center;
+  /* Centers the background image */
+  background-size: cover;
+  /* Covers the entire area with the image */
+  background-repeat: no-repeat;
+  /* Prevents background image from repeating */
+}
+
+.showcase-container {
+  display: flex;
+  /* Uses flexbox for layout */
+  flex-direction: column;
+  /* Stacks items vertically */
+  align-items: center;
+  /* Centers items horizontally */
+  justify-content: center;
+  /* Centers items vertically */
+  height: 100%;
+  /* Sets height to 100% of the parent */
+  font-size: 1.6rem;
+  /* Sets font size */
+  row-gap: 20px;
+  /* Adds space between rows */
+}
+
+.main-title {
+  text-transform: uppercase;
+  /* Transforms text to uppercase */
+  margin: 1.5em 1.5rem 0 1.5rem;
+  /* Adds top margin */
+  font-size: 4rem;
+  /* Sets font size for the main title */
+  color: chocolate;
+  /* Sets text color for the main title */
+}
+
+.showcase-container p {
+  color: #fff;
+  /* Sets text color for paragraph */
+  margin: 0 1.5rem;
+}
